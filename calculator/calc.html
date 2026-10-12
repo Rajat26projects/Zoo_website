@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator in JS</title>
+  <div class="calculator">
+
+    <h2>Simple Calculator</h2>
+    <div class="result-box">
+      <span class="result-label">Result </span>
+      <span id="result">0</span>
+    </div>
+
+    <div class="form-group">
+      <label for="fvalue" >First value:  </label>
+      <input type="number" id="fvalue" placeholder="Enter first value">
+    </div>
+
+    <div class="form-group">
+      <label for="svalue" >Second value:  </label>
+      <input type="number" id="svalue" placeholder="Enter second value">
+    </div>
+
+    <div class="buttons">
+      <button onclick="add()">+</button> 
+       <button onclick="sub()">-</button> 
+        <button onclick="mul()">*</button> 
+         <button onclick="div()">/</button> 
+          <button onclick="rem()">%</button> 
+           <button onclick="pov()">**</button> 
+            <button onclick="holsq()">(a+b)<sup>2</sup></button>
+    </div>
+<button class="clear-btn"  onclick="cleardata()">Clear</button>
+  </div>
+</head>
+  
+
+<body>
+  <script src="./calc.js"></script>
+  <link rel="stylesheet" href="./cal.css">
+</body> 
+</html>

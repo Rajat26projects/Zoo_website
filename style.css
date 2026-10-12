@@ -1,0 +1,848 @@
+/* template css*/
+/* to make responsive*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+} 
+
+
+
+
+body{
+    margin:0px;
+}
+header{
+    background:#355872;
+    display: flex;
+}
+.logo{
+    padding:11px;
+    color:#f7f8f0;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    gap:10px;
+}
+.logo img{
+height:60px;
+width:60px;
+}
+.logo img:hover{
+    border:2px solid #f7f8f0;
+}
+.logo h1{
+    font-size:25px;
+    font-style: italic ;
+}
+header ul{
+    display:flex;
+    margin:0px;
+    width:80%;
+    justify-content: end;
+}
+
+header ul a{
+    background:#f7f8f0;
+    color:#355872;
+    padding:10px;
+    margin:10px;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+header ul a:hover{
+    background:#355872;
+    color:#f7f8f0;
+    border:1px solid #f7f8f0;
+    padding:9px;
+}
+
+header li{
+    list-style-type: none;
+}
+
+#HeroSection{
+  height:600px;
+  width:98%;
+}
+
+#Heroimg img{
+   height:600px;
+   width:100%;
+   position:absolute;
+   opacity:0.7;
+   
+}
+
+#HeroSection marquee{
+    padding:10px;
+    position:relative;
+    z-index:1;
+background:#66A3BF;
+color:white;
+font-size:20px;
+font-weight:500;
+width:102.9%;
+}
+
+#HeroSection marquee img{
+    height:20px;
+    width:20px;
+    align-items:center;
+    gap:10px;
+    vertical-align: middle;
+}
+
+#Herohead{
+  height:200px;
+  width:98%;
+}
+#Herohead h1{
+ 
+  margin:0px;
+  padding:100px;
+  position:relative;
+  z-index: 1;
+  text-align:center;
+  color:#480ced;
+  font-size: 60px;
+  text-shadow: 1px 1px #f7f8f0;
+}
+
+#Herohead h1:hover{
+   text-shadow: 4px 4px #f7f8f0;
+}
+
+
+
+#Herobutton{
+    margin-left:400px;
+    margin-top:0px;
+     padding:20px;
+  position:relative;
+   z-index: 1;
+   display:flex;
+  
+  gap:40px;
+  /* justify-content: center;
+ height:100px;
+ width:100px; */
+}
+
+#Herobutton button{
+    height:60px;
+    width:80px;
+    align-items: center;
+   border-radius: 10px;
+    background:#f7f8f0;
+    color:#355872; 
+    margin-top:0px;
+    font-size:20px;
+    margin-left:120px;
+}
+
+#Herobutton button:hover{
+background:#355872;
+color:#f7f8f0;
+border-radius: 12px;
+}
+
+
+.welcome{
+    height:40px;
+    text-align: center;
+    font-size:20px;
+    padding:0px;
+    margin:0px;
+}
+.about{
+    margin-top:30px;
+    display:flex;
+    background-color: #355872;
+    border:10px solid rgb(116, 161, 201);
+}
+
+#aboutus{
+    text-decoration:underline;
+    color:#8acce2;
+   font-size: 40px;
+   padding-left:20px;
+   text-shadow:1px 1px white;
+   
+}
+
+/* #mission{
+    font-size:20px;
+    color: #f7f7f7;;
+    padding-left:20px;
+    margin:10px;
+    height:25px;
+}
+
+#mission b{
+font-size:25px;
+color:#8acce2
+}
+
+#History{
+
+} */
+.about img{
+    height:400px;
+    width:400px;
+    border:3px solid white;
+    border-radius:15%;
+    margin:10px;
+    margin-top:20px;
+}
+
+/* #vision{
+    padding:30px;
+    font-size:20px;
+    color: #f7f7f7;;
+    padding-left:20px;
+    margin:10px;
+    height:25px;
+}
+
+#vision b{
+    font-size:25px;
+    color:#8acce2;
+} */
+
+.about mission{
+    display:flex;
+}
+
+.absection{
+    padding:5px;
+    font-size:20px;
+    color: #f7f7f7;;
+    padding-left:10px;
+   justify-content:space-evenly;
+    margin:10px;
+}
+
+.absection b{
+    font-size:25px;
+    color:#8acce2;
+}
+
+.animal{
+    margin-top:30px;
+    height:570px;
+    width:98%;
+    background-color: #355872;
+     border:10px solid rgb(116, 161, 201);
+
+}
+.animal h1{
+    padding-top:10px;
+    margin:0px;
+    text-align:center;
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+   
+}
+
+.ouranimal{
+    /* align-items: center;
+    margin:0px;
+    padding-top:0px; */
+    justify-content: space-around;
+    gap:30px;
+    display:flex;
+    padding:30px;
+}
+
+/* .ouranimal h2{
+    padding-top:0px;
+    text-align:center;
+    color:#f7f7f7;
+    font-weight:600;
+    font-size:40px;
+    text-shadow: 1px 1px red;
+    height:50px;
+}
+.ouranimal img{
+height:350px;
+width:350px;
+padding-left:40px;
+padding-top:0px;
+}
+
+.ouranimal pre{
+    color:#f7f7f7;
+    font-size:25px;
+} */
+
+#tiger,#lion,#Bear{
+    width:30%;
+    text-align:center;
+    border: 5px solid white;
+     border-radius:20%;
+}
+
+#tiger h2,
+#lion h2,
+#Bear h2 {
+    margin: 0px 0px 15px 0px;
+    color: #f7f7f7;
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+}
+
+#tiger img,
+#lion img,
+#Bear img {
+    height: 280px;
+    width: 98%;
+    object-fit: cover;
+   
+}
+
+#tiger p,
+#lion p,
+#Bear p {
+    color: #f7f7f7;
+    font-size: 18px;
+    line-height: 1.5;
+    padding:10px;
+}
+
+#tiger:hover,
+#lion:hover,
+#Bear:hover {
+    transform: scale(1.05);
+    background-color: #2b4a61;
+    box-shadow: 0px 5px 15px black;
+    transition: 0.3s;
+}
+/* .new{
+    height:600px;
+    width:100%;
+    background-color:#355872;
+    margin-top:30px;
+}
+
+.new h1{
+    padding-top:10px;
+    color:#f7f7f7;
+    text-align:center;
+} */
+
+
+
+
+
+
+.new{
+    margin-top:30px;
+    min-height:550px;
+    width:98%;
+    background-color: #355872;
+    border:10px solid rgb(116, 161, 201);
+}
+.new h1{
+    padding-top:10px;
+    margin:0px;
+    text-align:center;
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+}
+
+.newanimal{
+    /* align-items: center;
+    margin:0px;
+    padding-top:0px; */
+    justify-content: space-around;
+    gap:30px;
+    display:flex;
+    padding:40px;
+}
+
+#deer,#zebra,#aligator{
+    width:30%;
+    text-align:center;
+    border: 5px solid white;
+    border-radius:14%;
+}
+
+#deer h2,
+#zebra h2,
+#aligator h2 {
+    margin: 0px 0px 15px 0px;
+    color: #f7f7f7;
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+}
+
+#deer img,
+#zebra img,
+#aligator img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#deer p,
+#zebra p,
+#aligator p {
+    color: #f7f7f7;
+    font-size: 18px;
+    line-height: 1.5;
+    padding:10px;
+}
+
+#deer:hover,
+#zebra:hover,
+#aligator:hover {
+    transform: scale(1.05);
+    background-color: #2b4a61;
+    box-shadow: 0px 5px 15px black;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+.info{
+    margin-top:30px;
+    min-height:350px;
+    width:100%;
+    background-color: #355872;
+    border:10px solid rgb(116, 161, 201);
+   
+}
+.info h1{
+    padding-top:10px;
+    margin:0px;
+    text-align:center;
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+}
+
+.other{
+    /* align-items: center;
+    margin:0px;
+    padding-top:0px; */
+    justify-content: space-around;
+    gap:30px;
+    display:flex;
+    padding:40px;
+}
+
+#attraction,#ticket,#visit{
+    width:30%;
+    text-align:center;
+    border: 5px solid white;
+      border-radius:20%;
+}
+
+#attraction h2,
+#ticket h2,
+#visit h2 {
+    margin: 0px 0px 15px 0px;
+    color: #f7f7f7;
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+}
+
+
+#attraction p,
+#ticket p,
+#visit p {
+    color: #f7f7f7;
+    font-size: 20px;
+    line-height: 1.5;
+    padding:10px;
+}
+
+#attraction li{
+     color: #f7f7f7;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.other b{
+    font-size:25px;
+    color:#8acce2;
+}
+
+#attraction li  ul{
+    padding-left:5px;
+}
+
+#ticket:hover,
+#visit:hover,
+#attraction :hover {
+    transform: scale(1.05);
+    background-color: #2b4a61;
+    box-shadow: 0px 5px 15px black;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* thanks */
+.thanks{
+    margin-top:30px;
+    height:520px;
+    width:98%;
+    background-color: #355872;
+     border:10px solid rgb(116, 161, 201);
+    
+}
+.thanks h1{
+    padding-top:10px;
+    margin:0px;
+    text-align:center;
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+   
+}
+
+.people{
+    /* align-items: center;
+    margin:0px;
+    padding-top:0px; */
+    justify-content: space-around;
+    gap:30px;
+    display:flex;
+    padding:40px;
+   
+
+}
+
+
+#pm,#cm,#bhupendra{
+    width:50%;
+    text-align:center;
+    border: 5px solid white;
+      border-radius:10%;
+}
+
+#pm h2,
+#cm h2,
+#bhupendra h2 {
+    margin: 0px 0px 15px 0px;
+    color: #f7f7f7;
+    font-size: 30px;
+    text-shadow: 1px 1px red;
+}
+
+#pm img,
+#cm img,
+#bhupendra img {
+    height: 250px;
+    width: 60%;
+    object-fit: cover;
+    border-radius:15%;
+}
+
+#pm p,
+#cm p,
+#bhupendra p {
+    color: white;
+    font-size: 18px;
+    line-height: 0.5;
+    font-weight:700;
+}
+
+#pm:hover,
+#cm:hover,
+#bhupendra:hover {
+    transform: scale(1.05);
+    background-color: #2b4a61;
+    box-shadow: 0px 5px 15px black;
+    transition: 0.3s;
+}
+
+.cautions{
+     margin-top:30px;
+    height: 660px;
+    width:98%;
+    background-color: #355872;
+     border:10px solid rgb(116, 161, 201);
+}
+
+.cautions h1{
+ padding-top:10px;
+    margin:0px;
+    text-align:left;
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+   
+}
+
+.cautions h2{
+    color:#f7f7f7;
+    text-shadow: 1px 1px red;
+}
+
+.cautions p{
+    font-size:30px;
+}
+#guidelines{
+    padding-left:30px;
+}
+.incaution{
+    display:flex;
+}
+
+#cautionimg img{
+    height:550px;
+    width:550px;
+    margin-top:40px;
+    margin-left:40px;
+    border-radius: 25%;
+    border: 5px solid white;
+}
+
+#cautionimg img:hover {
+    transform: scale(1.05);
+    background-color: #2b4a61;
+    box-shadow: 0px 5px 15px black;
+    transition: 0.3s;
+}
+#guidelines{
+    color:#f7f7f7;
+    font-size:25px;
+}
+@media(min-width:0px){
+    header{
+        font-size:18px;
+    }
+}
+
+@media(min-width:576px){
+    header{
+    font-size: 26px;
+}
+}
+
+@media(min-width:1200px){
+    header{
+    font-size: 32px;
+}
+}
+
+/* To make responsive */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+    }
+
+    header ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* HERO */
+    #HeroSection {
+        width: 100%;
+    }
+
+    #Herohead h1 {
+        font-size: 40px;
+        padding: 80px 20px 20px;
+    }
+
+    #Herobutton {
+        margin: 0;
+        justify-content: center;
+    }
+
+    #Herobutton button {
+        margin: 0;
+    }
+
+
+    /* ABOUT */
+    .about {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+
+    /* ALL CARD SECTIONS */
+    .ouranimal,
+    .newanimal,
+    .other,
+    .people {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #tiger, #lion, #Bear,
+    #deer, #zebra, #aligator,
+    #attraction, #ticket, #visit,
+    #pm, #cm, #bhupendra {
+        width: 100%;
+    }
+
+
+    /* CAUTIONS */
+    .incaution {
+        flex-direction: column;
+    }
+
+    #cautionimg img {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #guidelines {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+
+    /* REMOVE FIXED SECTION HEIGHTS */
+    .animal,
+    .new,
+    .info,
+    .thanks,
+    .cautions {
+        height: auto;
+    }
+
+}
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    /* Remove fixed heights */
+    .animal,
+    .new,
+    .info,
+    .thanks,
+    .cautions {
+        height: auto;
+    }
+
+    /* Cards */
+    #tiger,
+    #lion,
+    #Bear,
+    #deer,
+    #zebra,
+    #aligator,
+    #attraction,
+    #ticket,
+    #visit,
+    #pm,
+    #cm,
+    #bhupendra {
+        width: 90%;
+        height: auto;
+        margin: 25px auto;
+        padding: 25px 20px;
+    }
+
+    /* Card headings */
+    #tiger h2,
+    #lion h2,
+    #Bear h2,
+    #deer h2,
+    #zebra h2,
+    #aligator h2,
+    #attraction h2,
+    #ticket h2,
+    #visit h2,
+    #pm h2,
+    #cm h2,
+    #bhupendra h2 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin: 10px 0 25px;
+        text-align: center;
+    }
+
+    /* Card paragraphs */
+    #tiger p,
+    #lion p,
+    #Bear p,
+    #deer p,
+    #zebra p,
+    #aligator p,
+    #attraction p,
+    #ticket p,
+    #visit p,
+    #pm p,
+    #cm p,
+    #bhupendra p {
+        font-size: 22px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 20px 0;
+        word-wrap: break-word;
+    }
+
+    /* Government/person cards */
+    .people {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pm img,
+    #cm img,
+    #bhupendra img {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    /* Prevent long text from overflowing */
+    #visit p,
+    #ticket p {
+        overflow-wrap: anywhere;
+    }
+
+    /* Email and website */
+    #visit a {
+        overflow-wrap: anywhere;
+    }
+}
